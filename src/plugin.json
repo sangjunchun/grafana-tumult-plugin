@@ -1,11 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "Tumult Plugin",
-  "id": "tumult-tumultplugin-datasource",
+  "name": "Tmlt Analytics",
+  "id": "tumult-tmltanalytics-datasource",
   "metrics": true,
+  "backend": true,
+  "executable": "gpx_tmlt_analytics",
   "info": {
-    "description": "Support tmlt",
+    "description": "Support tumult analytics",
     "author": {
       "name": "Tumult"
     },

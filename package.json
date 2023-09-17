@@ -1,7 +1,7 @@
 {
-  "name": "tumult-plugin",
+  "name": "tmlt-analytics",
   "version": "1.0.0",
-  "description": "Support tmlt",
+  "description": "Support tumult analytics",
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
     "dev": "webpack -w -c ./.config/webpack/webpack.config.ts --env development",
